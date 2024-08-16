@@ -1,4 +1,6 @@
 import Hero from "./components/hero";
+import './App.css'
+import Header from './components/Header/Header'
 import HireMe from "./components/HireMe";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
@@ -8,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Hero /> */}
+      <Header />
       <Services />
       <Portfolio />
       <HireMe />

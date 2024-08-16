@@ -18,7 +18,7 @@ const Hero = () => {
         <div>
           {/* <img src={picture} alt="" className="relative w-full -mt-8 z-20" /> */}
           <div className="bg-gradient-to-b from-[#3f5125] to-[#364823] rounded-full rounded-b-none lg:w-40 h-20 lg:p-8 p-4 absolute top-[40%] lg:-right-32 -right-[16%]">
-            <button className="rounded-full"></button>
+            <button className="rounded-full bg-"></button>
           </div>
         </div>
       </div>
