@@ -17,7 +17,7 @@ const Navbar = () => {
           >
             <button className="flex items-center gap-x-4 text-white">
               <SiMinds className="text-2xl" />
-              <p className="text-2xl">Steev Vhoo</p>
+              <p className="text-2xl">Maggie</p>
             </button>
           </a>
           <div className="flex items-center">
