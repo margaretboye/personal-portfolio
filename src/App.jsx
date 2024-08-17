@@ -1,15 +1,21 @@
-import Hero from './components/hero'
-import Navbar from './components/Navbar'
+import Hero from "./components/hero";
+import './App.css'
+import Header from './components/Header/Header'
+import HireMe from "./components/HireMe";
+import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
+import Services from "./components/Services";
 
 function App() {
-  
-
   return (
     <>
-      <Navbar/>
-      <Hero/>
+      <Navbar />
+      <Header />
+      <Services />
+      <Portfolio />
+      <HireMe />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
