@@ -2,7 +2,9 @@ import React from "react";
 import { FaHtml5, FaCss3, FaJsSquare, FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import Crepus from "../assets/crepus.png";
+import Bloom from "../assets/bloom.png";
 import { Link, useNavigate } from "react-router-dom";
+import Four from "../assets/four.png";
 
 const Portfolio = () => {
   const navigate = useNavigate();
@@ -46,29 +48,31 @@ const Portfolio = () => {
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                   <div class="relative">
                     <img
-                      src="path/to/your-image2.jpg"
+                      src={Four}
                       alt="Demo 2"
                       class="w-full h-48 object-cover"
                     />
-                    <button class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 text-white text-xl font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300">
+                    <button
+                      onClick={() => navigate("/four-paws")}
+                      class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 text-white text-xl font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300"
+                    >
                       View Demo
                     </button>
                   </div>
                   <div class="p-6 flex flex-col items-center justify-center">
                     <Link to="" class="text-xl font-semibold mb-2">
-                      Hot chops
+                      Four Paws
                     </Link>
                     <p class="text-gray-600">
-                      Hot chops was built for a restaurant where users can view
-                      their menu and book appointments for their next dinner. It
-                      was built with HTML, CSS and JavaScript
+                      Four paws was created for a pet adoption agaency to help
+                      them find the love they deserve
                     </p>
                   </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                   <div class="relative">
                     <img
-                      src="path/to/your-image2.jpg"
+                      src={Bloom}
                       alt="Demo 2"
                       class="w-full h-48 object-cover"
                     />

@@ -63,7 +63,7 @@ const HireMe = () => {
             <li className="flex items-center">
               <FaLinkedin className="text-[#ff8267] mr-4" />
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/margaretnaaoduaboye/"
                 className="hover:text-[#ff8267] transition-colors duration-300"
               >
                 LinkedIn Profile
@@ -72,7 +72,7 @@ const HireMe = () => {
             <li className="flex items-center">
               <FaGithub className="text-[#ff8267] mr-4" />
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/margaretboye"
                 className="hover:text-[#ff8267] transition-colors duration-300"
               >
                 GitHub Profile
