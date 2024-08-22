@@ -2,8 +2,11 @@
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        whiteRed: "bg-gradient-to-r from-[#bcffa4] to-[#f49872] ",
+      },
+    },
   },
   plugins: [],
-}
-
+};

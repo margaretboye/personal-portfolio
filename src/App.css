@@ -61,7 +61,8 @@ section {
   height: 100vh;
 }
 
-section > h2, section > h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-white);
 }
@@ -111,7 +112,7 @@ img {
   display: block;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /*=================MEDIUM DEVICES===========*/
@@ -131,4 +132,35 @@ img {
   section > h2 {
     margin-bottom: 2rem;
   }
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-appear-delay1 {
+  animation: appear 0.6s ease-in-out 0s forwards;
+}
+
+.animate-appear-delay2 {
+  animation: appear 0.6s ease-in-out 0.2s forwards;
+}
+
+.animate-appear-delay3 {
+  animation: appear 0.6s ease-in-out 0.4s forwards;
+}
+
+.animate-appear-delay4 {
+  animation: appear 0.6s ease-in-out 0.6s forwards;
+}

@@ -16,7 +16,7 @@ const Navbar = () => {
             className="font-medium tracking-wider transition-colors cursor-pointer"
           >
             <button className="flex items-center gap-x-4 text-white">
-              <SiMinds className="text-2xl" />
+              <FaWifi className="text-2xl" />
               <p className="text-2xl">Maggie</p>
             </button>
           </a>

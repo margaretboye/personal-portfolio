@@ -1,21 +1,19 @@
-import Hero from "./components/hero";
-import './App.css'
-import Header from './components/Header/Header'
-import HireMe from "./components/HireMe";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
-import Services from "./components/Services";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import PortfolioMain from "./pages/PortfolioMain";
+import Crepus from "./components/Crepus";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Header />
-      <Services />
-      <Portfolio />
-      <HireMe />
-    </>
-  );
+  const router = createBrowserRouter([
+    {
+      index: true,
+      element: <PortfolioMain />,
+    },
+    {
+      path: "/crepus",
+      element: <Crepus />,
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
 
 export default App;
