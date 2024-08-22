@@ -88,8 +88,10 @@ const Portfolio = () => {
                       Bloom and balance
                     </Link>
                     <p class="text-gray-600">
-                      Brief description of Demo 2. This is a small overview of
-                      what the demo entails.
+                      Bloom and balance was created with React Js and Tailwind
+                      CSS. This app was created to adress the issue of females
+                      having difficulty tracking their periods and having free
+                      access to information regarding reproductive health
                     </p>
                   </div>
                 </div>
