@@ -50,12 +50,6 @@ const Navbar = () => {
                 <a href="">Contact Me</a>
               </li>
             </div>
-            <div className="lg:w-1/3 flex items-center justify-end">
-              <button className="rounded-full px-6 py-4 flex items-center text-white gap-2 border border-[#627f4e] hover:text-[#627f4e] hover: ">
-                <p>Download CV</p>
-                <FaDownload />
-              </button>
-            </div>
           </ul>
         </div>
       </div>

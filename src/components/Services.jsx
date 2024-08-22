@@ -19,7 +19,7 @@ const Services = () => {
           <span
             className={`lg:w-1/2 ${inView ? "animate-inView" : "opacity-0"}`}
           >
-            <h1 className="bg-gradient-to-r from-[#bcffa4] to-[#f29b73] text-transparent bg-clip-text lg:text-[3rem] leading-normal text-2xl">
+            <h1 className="bg-gradient-to-r from-[#bcffa4] to-[#f29b73] text-transparent bg-clip-text lg:text-[3rem] leading-normal text-2xl text-center">
               My Skill Set & Expertise
             </h1>
           </span>
@@ -34,8 +34,7 @@ const Services = () => {
             <FaJsSquare size={90} className="text-4xl text-white mb-4 " />
             <h1 className="text-white text-2xl mb-">JavaScript</h1>
             <p className="text-[#93a98b] mb-6 text-center">
-              Proficient in JavaScript, creating dynamic and interactive web
-              applications.
+              Basic knowledge in JavaScript,
             </p>
           </div>
 
@@ -58,10 +57,10 @@ const Services = () => {
             }`}
           >
             <FaReact size={90} className="text-4xl text-white mb-4 " />
-            <h1 className="text-white text-2xl mb-">React</h1>
+            <h1 className="text-white text-2xl mb-">ReactJs</h1>
             <p className="text-[#93a98b] mb-6 text-center">
-              Skilled in building scalable and efficient applications using
-              React.
+              Developed basic skills in building scalable and efficient
+              applications using React.
             </p>
           </div>
 
@@ -73,7 +72,8 @@ const Services = () => {
             <SiTailwindcss size={90} className="text-4xl text-white mb-4 " />
             <h1 className="text-white text-2xl mb-">Tailwind CSS</h1>
             <p className="text-[#93a98b] mb-6 text-center">
-              Expertise in using Tailwind CSS for rapid and responsive design.
+              Experience in using Tailwind CSS for styling and designing
+              friendly user interfaces
             </p>
           </div>
         </section>

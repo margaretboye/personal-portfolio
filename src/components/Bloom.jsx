@@ -1,7 +1,7 @@
 import React from "react";
 import BBVideo from "../assets/videos/bb.mp4";
 
-const Bb = () => {
+const Bloom = () => {
   return (
     <div>
       <div className="flex justify-center items-center min-h-screen bg-black">
@@ -28,4 +28,4 @@ const Bb = () => {
   );
 };
 
-export default Bb;
+export default Bloom;
