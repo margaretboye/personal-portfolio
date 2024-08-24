@@ -64,8 +64,9 @@ const Portfolio = () => {
                       Four Paws
                     </Link>
                     <p class="text-gray-600">
-                      Four paws was created for a pet adoption agaency to help
-                      them find the love they deserve
+                      Four paws was created for a pet adoption agency to help
+                      pets find their homes and the love they deserve. This is
+                      page created with HTML and CSS.
                     </p>
                   </div>
                 </div>
