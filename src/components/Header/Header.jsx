@@ -58,7 +58,7 @@ const Header = () => {
           </div>
         </div>
 
-        <HeaderSocials />
+        {/* <HeaderSocials /> */}
         {/* <a href="#Contact" className="scroll__down text-white mt-8">
           Scroll Down
         </a> */}
