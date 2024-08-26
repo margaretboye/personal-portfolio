@@ -23,11 +23,6 @@
   --container-width-md: 75%;
   --container-width-ms: 75%;
 }
-
-html {
-  scroll-behavior: smooth;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }
@@ -90,7 +85,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem 1, 2rem;
+  padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
@@ -164,3 +159,12 @@ html {
 .animate-appear-delay4 {
   animation: appear 0.6s ease-in-out 0.6s forwards;
 }
+
+/* Add this CSS to ensure hover works correctly
+.hover-scale {
+  transition: transform var(--transition);
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+} */

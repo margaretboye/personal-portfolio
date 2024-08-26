@@ -90,9 +90,9 @@ const Portfolio = () => {
                     </Link>
                     <p class="text-gray-600">
                       Bloom and balance was created with React Js and Tailwind
-                      CSS. This app was created to adress the issue of females
+                      CSS. This app was created to address the issue of females
                       having difficulty tracking their periods and having free
-                      access to information regarding reproductive health
+                      access to information regarding reproductive health.
                     </p>
                   </div>
                 </div>
